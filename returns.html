@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northstar Retail Co.</title>
+</head>
+<body>
+    <a href="index.html">Home</a> | <a href="returns.html">Returns & Refunds</a>
+    <h1>Return & Refund</h1>
+    <p>Here are our return and refund policies:</p>
+    <ul>
+        <li>Returns must be made within 14 days of purchase.</li>
+        <li>Items must be in original condition with all tags attached.</li>
+        <li>Refunds will be processed within 5-7 business days.</li>
+    </ul>
+    <p>Start a return or refund request:</p>
+    <form class="submit-form" method="post">
+        <label for="orderNumber">Order Number:</label>
+        <input type="text" id="orderNumber" name="orderNumber" placeholder="e.g., ORD-0001" required><br><br>
+        <input type="radio" id="returnRequest" name="requestType" value="return" required>
+        <label for="returnRequest">Return</label>
+        <input type="radio" id="refundRequest" name="requestType" value="refund">
+        <label for="refundRequest">Refund</label>
+    </form>
+    <div class="dummydata"> 
+    <p>Return: ORD-1001, ORD-1002, ORD-1003</p>
+    <p>Refund: ORD-2001, ORD-2002</p>
+    </div>
+    <section class="order-details" id="orderDetails" hidden aria-live="polite">
+        <h2>Request details</h2>
+        <p><strong>Order number:</strong> <span id="renderedOrderNumber"></span></p>
+        <p><strong>Request type:</strong> <span id="renderedRequestType"></span></p>
+        <p>Customer: <span id="renderedCustomerName"></span></p>
+        <p>Items: <span id="renderedItems"></span></p>
+        <p>Total: <span id="renderedTotal"></span></p>
+        <p>Delivery status: <span id="renderedDeliveryStatus"></span></p>
+        <p>Message: <span id="renderedMessage"></span></p>
+        <p id="customerCare" hidden>
+            Need help? <a href="">Contact customer care</a>.
+        </p>
+    </section>
+    <script src="returns.js"></script>
+</body>
+</html>
