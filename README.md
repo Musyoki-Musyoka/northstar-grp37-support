@@ -46,11 +46,11 @@ The prototype:
 
 | Name | Primary responsibility | GitHub username |
 |---|---|---|
-| Anthony [Surname] | Team leader, repository, board, and integration | @[your-username] |
-| [Member 2 name] | Order-status flow | @[username] |
-| [Member 3 name] | Returns and refunds flow | @[username] |
-| [Member 4 name] | Visual design, accessibility, and QA | @[username] |
-| [Member 5 name] | Documentation, readiness, and audit | @[username] |
+| Anthony Musyoka | Team leader, repository, board, and integration | Musyoki-Musyoka |
+| Marylene Ineza | Order-status flow | Marylene-ALC |
+| Anne Mutahi | Returns and refunds flow | annemutahi |
+| Vincent Kipkosgei | Visual design, accessibility, and QA | Tanui-001 |
+| Amos Hambulle | Documentation, readiness, and audit | @hambulleson3718.blip |
 
 ## Working Method
 
