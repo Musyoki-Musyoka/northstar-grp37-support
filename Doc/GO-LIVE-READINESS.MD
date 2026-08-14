@@ -1,63 +1,36 @@
-One-Page Go-Live Readiness Note
-
-            Northstar Support Dashboard 
+ One-Page Go-Live Readiness Note
+Northstar Support Dashboard | Controlled Demonstration Assessment
 Field	Details
 Project	Northstar Support Deflection MVP
 Version	1.0 MVP
 Prepared by	Amos Lerumben Hambulle
-Date	13.08.2026
-Repository	https://github.com/Musyoki-Musyoka/northstar-grp37-support.git
- 1. Working Scope
-The Northstar Support Dashboard is a self-service Minimum Viable Product (MVP) designed to reduce repetitive customer-support requests. The current MVP supports two selected customer-service areas:
-•	Order Status – customers can enter a fictional order number and view the corresponding order status.
-•	Returns & Refunds – customers can follow defined decision rules to receive guidance on returning an item or checking refund information.
-The prototype uses fictional/hard-coded data and demonstrates the proposed approach. It is not intended to operate as a production system in its current form. Has fully accessible HTML/CSS interface optimized for both web browsers and mobile viewports.
-2. Observed Defects
-During testing, the team identified the following issues:
-ID	Defect	                  Severity	            Status
-D01	Generic error	              low	                 Fixed 
-D02	Mobile layout overflow	    low	                 Fixed 
+Document date	13 Aug 2026
+Repository	https://github.com/Musyoki-Musyoka/northstar-grp37-support
+Decision
+GO for a controlled demonstration using fictional data only. NO-GO for production use or real customer data. This decision is limited to the tested prototype flows and is not a production-release approval.
+## Working Scope
+The current MVP demonstrates only two self-service prototype flows using fictional/hard-coded data:
+•	Order Status: enter a fictional order number and view the matching hard-coded status.
+•	Returns & Refunds: answer the implemented decision questions and view the matching guidance.
+The interface has been exercised in Chrome. Accessibility testing is incomplete; no claim of full accessibility is made. The prototype is not connected to live Northstar systems.
+ QA Verification Record
+Verification item	Recorded value / evidence status
+Verification date/time	15 Aug 2026; 7:30 PM EAT
+Tester	Vincent Kipkosgei
 
-No critical defects remain in the tested MVP scope. Minor limitations and production gaps are documented below.
-3. Run Steps
-To demonstrate the MVP:
-•	Open the project repository/application.
-•	Open the dashboard homepage.
-•	Select Track My Order.
-•	Enter one of the provided fictional order numbers.
-•	Confirm that the appropriate order status is displayed.
-•	Return to the homepage.
-•	Select Returns & Refunds.
-•	Follow the return/refund decision questions.
-•	Confirm that the appropriate guidance is displayed.
+Browser / device	Google Chrome 139 on Windows 11 laptop
+Tested commit	 {add the commit SHA before the final end-to-end QA pass}
+QA log	{add the QA-log URL before the final end-to-end QA pass}
 
+NB: A final end-to-end QA pass is still required. Therefore, this note does not state that no critical defects remain.
+ Demonstration
+Local run procedure (to be confirmed against the repository README because the repository contents were not available for verification):
+•	Clone the repository: git clone https://github.com/Musyoki-Musyoka/northstar-grp37-support.git
+•	Open the project folder: cd northstar-grp37-support
+•	Serve the static prototype: python -m http.server 8000
+•	Open http://localhost:8000 in Chrome, then exercise Track My Order and Returns & Refunds.
+Fictional demonstration inputs: the exact hard-coded order number(s) and decision-response path(s) were not recorded in the supplied source or QA evidence. Record the exact accepted values from the current build before presenting the demonstration; do not invent values or use real customer data.
 
-Run Verification: The team successfully ran the MVP using the steps above. The order status and returns and refunds flows were demonstrated successfully using the defined fictional scenarios.
-
-
-4. Production Gaps
-Before the solution can be used in a live production environment, the following areas require further improvement:
-•	Replace hard-coded/fictional order data with Northstar's live order database.
-•	Connect the application to real order-status information.
-•	Connect the returns/refund process to Northstar's actual systems.
-•	Implement appropriate authentication and security controls.
-•	Conduct additional accessibility and mobile testing.
-•	Perform production-scale testing.
-•	Establish monitoring, maintenance and support procedures.
-
-
-5. Handover Needs
-The following items should be handed over to the Northstar technical support team:
-•	GitHub repository and source code.
-•	README and setup instructions.
-•	Description of order-status and returns/refund logic.
-•	Test information and known limitations.
-•	Project board and relevant audit records.
-•	Instructions for replacing fictional data with production data.
-
-
-Recommendation: Demonstation-ready MVP; not yet production-ready.
-The MVP demonstrates the proposed self-service approach for order status and returns/refunds. However,
-integration with live Northstar systems, additional testing, security checks and production preparation are required before the solution can be deployed for real customers.
-
-
+Production Gaps and Handover
+•	Before production: integrate live systems, add authentication/security controls, complete accessibility and mobile testing, run end-to-end and scale QA, and establish monitoring and support.
+•	Handover: repository/source, README and setup instructions, order-status and returns/refund logic, QA evidence and known limitations, project/audit records, and instructions for replacing fictional data.
