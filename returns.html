@@ -7,81 +7,83 @@
      <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <a href="index.html">Home</a> | <a href="returns.html">Returns & Refunds</a>
-    <h1>Return & Refund</h1>
-    <p>Here are our return and refund policies:</p>
-    <ul>
-        <li>Returns must be made within 30 days of purchase.</li>
-        <li>Items must be in original condition with all tags attached.</li>
-        <li>Refunds will be processed within 5-7 business days.</li>
-    </ul>
-    <p>Start a return or refund request:</p>
-    <form class="submit-form" method="post">
-        <label for="orderNumber">Order Number:</label>
-        <input type="text" id="orderNumber" name="orderNumber" placeholder="e.g., ORD-0001" required><br><br>
-        <p>
-            <label for="requestType">Request type:</label>
-            <select id="requestType" name="requestType" required>
-                <option value="">Select request type</option>
-                <option value="return">Return</option>
-                <option value="refund">Refund</option>
-            </select>
-        </p>
+    <main>
+        <a href="index.html">Home</a> | <a href="returns.html">Returns & Refunds</a>
+        <h1>Return & Refund</h1>
+        <p>Here are our return and refund policies:</p>
+        <ul>
+            <li>Returns must be made within 30 days of purchase.</li>
+            <li>Items must be in original condition with all tags attached.</li>
+            <li>Refunds will be processed within 5-7 business days.</li>
+        </ul>
+        <p>Start a return or refund request:</p>
+        <form class="submit-form" method="post">
+            <label for="orderNumber">Order Number:</label>
+            <input type="text" id="orderNumber" name="orderNumber" placeholder="e.g., ORD-0001" required><br><br>
+            <p>
+                <label for="requestType">Request type:</label>
+                <select id="requestType" name="requestType" required>
+                    <option value="">Select request type</option>
+                    <option value="return">Return</option>
+                    <option value="refund">Refund</option>
+                </select>
+            </p>
 
-        <p>
-            <label for="deliveryStatus">Delivery status:</label>
-            <select id="deliveryStatus" name="deliveryStatus">
-                <option value="">Select delivery status</option>
-                <option value="not-delivered">Not delivered</option>
-                <option value="delivered">Delivered</option>
-                <option value="acknowledged">Delivered and acknowledged</option>
-            </select>
-        </p>
-        <p>
-            <label for="returnWindow">Within 30-day return window:</label>
-            <select id="returnWindow" name="returnWindow">
-                <option value="">Select an option</option>
-                <option value="yes">Yes, within 30 days</option>
-                <option value="no">No, past 30 days</option>
-            </select>
-        </p>
-        <p>
-            <label for="itemCondition">Item condition:</label>
-            <select id="itemCondition" name="itemCondition">
-                <option value="">Select item condition</option>
-                <option value="original">Original condition with tags</option>
-                <option value="opened">Opened, with tags</option>
-                <option value="used">Used or damaged</option>
-            </select>
-        </p>
-        <p>
-            <label for="refundStage">Refund stage:</label>
-            <select id="refundStage" name="refundStage">
-                <option value="">Select refund stage</option>
-                <option value="not-requested">Not requested</option>
-                <option value="requested">Refund requested</option>
-                <option value="return-received">Return received</option>
-                <option value="completed">Refund completed</option>
-            </select>
-        </p>
-    </form>
-    <div class="dummydata"> 
-    <p>Return: ORD-1001, ORD-1002, ORD-1003</p>
-    <p>Refund: ORD-2001, ORD-2002</p>
-    </div>
-    <section class="order-details" id="orderDetails" hidden aria-live="polite">
-        <h2>Request details</h2>
-        <p><strong>Order number:</strong> <span id="renderedOrderNumber"></span></p>
-        <p><strong>Request type:</strong> <span id="renderedRequestType"></span></p>
-        <p>Customer: <span id="renderedCustomerName"></span></p>
-        <p>Items: <span id="renderedItems"></span></p>
-        <p>Total: <span id="renderedTotal"></span></p>
-        <p>Delivery status: <span id="renderedDeliveryStatus"></span></p>
-        <p>Message: <span id="renderedMessage"></span></p>
-        <p id="customerCare" hidden>
-            Need help? <a href="">Contact customer care</a>.
-        </p>
-    </section>
+            <p>
+                <label for="deliveryStatus">Delivery status:</label>
+                <select id="deliveryStatus" name="deliveryStatus">
+                    <option value="">Select delivery status</option>
+                    <option value="not-delivered">Not delivered</option>
+                    <option value="delivered">Delivered</option>
+                    <option value="acknowledged">Delivered and acknowledged</option>
+                </select>
+            </p>
+            <p>
+                <label for="returnWindow">Within 30-day return window:</label>
+                <select id="returnWindow" name="returnWindow">
+                    <option value="">Select an option</option>
+                    <option value="yes">Yes, within 30 days</option>
+                    <option value="no">No, past 30 days</option>
+                </select>
+            </p>
+            <p>
+                <label for="itemCondition">Item condition:</label>
+                <select id="itemCondition" name="itemCondition">
+                    <option value="">Select item condition</option>
+                    <option value="original">Original condition with tags</option>
+                    <option value="opened">Opened, with tags</option>
+                    <option value="used">Used or damaged</option>
+                </select>
+            </p>
+            <p>
+                <label for="refundStage">Refund stage:</label>
+                <select id="refundStage" name="refundStage">
+                    <option value="">Select refund stage</option>
+                    <option value="not-requested">Not requested</option>
+                    <option value="requested">Refund requested</option>
+                    <option value="return-received">Return received</option>
+                    <option value="completed">Refund completed</option>
+                </select>
+            </p>
+        </form>
+        <div class="dummydata"> 
+        <p>Return: ORD-1001, ORD-1002, ORD-1003</p>
+        <p>Refund: ORD-2001, ORD-2002</p>
+        </div>
+        <section class="order-details" id="orderDetails" hidden aria-live="polite">
+            <h2>Request details</h2>
+            <p><strong>Order number:</strong> <span id="renderedOrderNumber"></span></p>
+            <p><strong>Request type:</strong> <span id="renderedRequestType"></span></p>
+            <p>Customer: <span id="renderedCustomerName"></span></p>
+            <p>Items: <span id="renderedItems"></span></p>
+            <p>Total: <span id="renderedTotal"></span></p>
+            <p>Delivery status: <span id="renderedDeliveryStatus"></span></p>
+            <p>Message: <span id="renderedMessage"></span></p>
+            <p id="customerCare" hidden>
+                Need help? <a href="">Contact customer care</a>.
+            </p>
+        </section>
+    </main>
     <script src="returns.js" defer></script>
 </body>
 </html>
