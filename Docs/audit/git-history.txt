@@ -1,0 +1,55 @@
+8449eec332f6669fa95b49a604381b5aaacd1cfe|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T20:59:35+03:00|On docs/NS-15A-final-handover: !!GitHub_Desktop<docs/NS-15A-final-handover>
+db869decdac62662d0709bda2cb196936f285af0|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T20:59:35+03:00|index on docs/NS-15A-final-handover: 9fe7562 Merge pull request #28 from Musyoki-Musyoka/Feat/NS-15-FINAL-AUDIT-PACKAGE.md
+7effdbeb6b405310cb55947951dc9a6932e551d7|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T20:54:32+03:00|docs: complete go-live evidence
+8d559af77f5780643a8508e114c09d900a5afe97|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T20:49:14+03:00|docs: complete go-live evidence - link tested deployment, commit and final QA
+e3748b4f273fcbd62f00284a722001eb1ae648a3|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T20:30:58+03:00|docs: update README with final evidence links - make submission resources easy to verify
+ca1e5e90d9761e761645ee0a016ad1cd072ce940|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T20:28:29+03:00|docs: update README with final evidence links - make submission resources easy to verify
+c2098e291e1499bc8585cb0373a390872f2b9754|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T20:22:30+03:00|test: verify final Vercel deployment - confirm Returns form no longer produces 405
+9681fb81ff70573051cbc205e871b4b3bf55b3a3|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T20:15:55+03:00|test: verify final Vercel deployment - confirm Returns form no longer produces 405
+b37423302123c00c5d6d709ad4a546748495a163|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T18:00:01+03:00|docs: update README with final evidence links - make submission resources easy to verify
+d18ad726db668efbd58be26e142df264917995ec|annemutahi|108974308+annemutahi@users.noreply.github.com|2026-08-15T17:29:37+03:00|Merge pull request #35 from Musyoki-Musyoka/feat/NS-7-returns-refunds-page
+e64da0b0c27ab0ae0c60b20f9833b90eafb93d5f|annemutahi|ms.nyamburamutahi@gmail.com|2026-08-15T16:33:51+03:00|feat: removed post method and added id to form- prevents 405 method not allowed in vercel
+9fe75628cfbee72ee69b4aaf2899214fcc19c69e|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-15T14:39:11+03:00|Merge pull request #28 from Musyoki-Musyoka/Feat/NS-15-FINAL-AUDIT-PACKAGE.md
+9cf94e95e587fc9e702915e8c04956ab2defead8|Tanui-001|vincenttanui143@gmail.com|2026-08-15T14:23:02+03:00|Merge pull request #32 from Musyoki-Musyoka/Feat/NS-13-End-to-end-Quality-Assurance-(QA)-and-defect-verification
+fdac062afecfa352c0eee5ba5b4c35861950f8d4|Tanui-001|vincenttanui143@gmail.com|2026-08-15T14:22:53+03:00|Merge pull request #31 from Musyoki-Musyoka/Feat/NS-11-mobile-accessibility
+6d45b73df8e1dbbd27ddf0921d9ff243bc1956ea|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-15T14:08:39+03:00|Merge pull request #29 from Musyoki-Musyoka/main
+b21b51cd3670ab4935e1c7146cbba5deea794a7c|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-15T14:06:18+03:00|Merge pull request #30 from Musyoki-Musyoka/doc/-NS-1-&-2-Creating-repo-and-team-charter
+522985da6ee946fe795cfd5db42c7183c0addb30|Tanui-001|vincenttanui143@gmail.com|2026-08-15T13:34:26+03:00|Add QA and defect verification report for Northstar MVP
+27e5dc4e0ef9e56c2dbe6500870723253188b4ff|Tanui-001|vincenttanui143@gmail.com|2026-08-15T12:41:15+03:00|Add mobile accessibility test report
+4377d50c6407054f5332d04e704b1e2a6d4867e4|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T11:32:44+03:00|docs/ Submission of signatures
+3d0f1e69dd523248934632bc491a8742678b01a3|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-15T11:14:05+03:00|docs: add team charter with response SLAs and board rules
+6ee238eb0fcf8adf548d74a5d84df823b35204f8|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-15T02:18:02+03:00|Merge pull request #27 from Musyoki-Musyoka/Feat/NS-14--COLLABORATION-DEMO.md
+e5d710a4a9adb8c10d9045a08e6c5ed89090df50|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-15T02:12:37+03:00|audit: add project board export - preserves task ownership and status history -task #15
+95f3d54932acd6862faa2e464abdd8d7c2ff85b4|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-15T01:52:26+03:00|audit: add checkpoint activity map -links member contributions to assigned task #15
+dededfc91807193831134d9ad87d3190d4cbe10f|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-15T01:37:57+03:00|audit: add sprint git activity export - preserves raw contribution history
+9974bf23d3f643309a1d9ac350cd63d0f3e9ed5b|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-15T01:22:51+03:00|Docs: add collaboration and demo records-documents team coordination
+1459c4ab29efdb681bac869d73c3506e087a9c18|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-15T00:27:18+03:00|Merge pull request #18 from Musyoki-Musyoka/NS-13-GO-LIVE-READINESS
+7d8526d31d978545eb087e925fb5470535e9d88c|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-15T00:09:04+03:00|docs: update go-live readiness notes as per review
+dfab6352cc638f203a4f75f7aba5324b16aecd96|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-14T23:26:13+03:00|docs: update go-live readiness note as per review
+0e53b1c2509650325a9c2f7b0c1a627378b63304|Ineza Sugira Marylene|m.sugiraine@alustudent.com|2026-08-15T00:24:26+04:00|NS-04-order-scenarios
+f2a3bf7810912e13f607ad415fe916c0aa2010be|Ineza Sugira Marylene|m.sugiraine@alustudent.com|2026-08-14T22:38:47+04:00|NS-06-order-logic
+a06748c6aa349b682757ea70a502bfb7eb5edc05|vincent tanui|vincenttanui143@gmail.com|2026-08-14T17:38:05+03:00|Merge branch 'main' of https://github.com/Musyoki-Musyoka/northstar-grp37-support
+6585e8876b7175bebe73ec292b4ea48658ea5274|vincent tanui|vincenttanui143@gmail.com|2026-08-14T17:37:49+03:00|feat: add styles.css- give uniform styling to existing pages
+9a98ef8ea2416829f766e54f5f4cc179b50f693a|Ineza Sugira Marylene|m.sugiraine@alustudent.com|2026-08-14T18:21:57+04:00|docs: add fictional order scenarios - define test data for order lookup demo (NS-04)
+fed714181b38f919caed7cfdfc48910f513489a9|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-14T17:16:49+03:00|audit/checkpoint-map.md
+3944e568c3c9f48fb09f6a14daab7e6d9539ef2a|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-14T17:14:27+03:00|audit/board-export.csv
+fa5811cec9c5bd9ab1ebfb5fa589eb9490e2956e|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-14T17:12:26+03:00|audit/ git-log.text
+d928e8070bae6ffabbaaf0e9ba5afff544924c02|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-14T16:57:51+03:00|Docs/Collaboration-demo.md
+8bd4bd2d77e3d3e3298b2240c286258d6e42e2cc|annemutahi|108974308+annemutahi@users.noreply.github.com|2026-08-14T16:34:10+03:00|Merge pull request #25 from Musyoki-Musyoka/feat/NS-7-returns-refunds-page
+01e31f04a3e132f4f6b4cce073e015493e66b167|annemutahi|ms.nyamburamutahi@gmail.com|2026-08-14T16:30:51+03:00|feat: add main section- match css styling
+dce5de895d2599db37a6767d4e62d043fe01d5a3|Ineza Sugira Marylene|m.sugiraine@alustudent.com|2026-08-14T16:36:12+04:00|feat: answer fictional order lookups - deflect basic status questions without an agent (NS-06)
+d0870d2a983f147962cda6a0fb275168a000c97f|Ineza Sugira Marylene|m.sugiraine@alustudent.com|2026-08-14T15:43:40+04:00|Merge pull request #22 from Musyoki-Musyoka/feat/NS-05-order-page
+ed034b374bef5020055d99f03adabf1dfb93fe89|annemutahi|108974308+annemutahi@users.noreply.github.com|2026-08-14T12:38:47+03:00|Merge pull request #23 from Musyoki-Musyoka/feat/NS-7-returns-refunds-page
+be41662bf3799a19ba15e025b886313db2a846f8|Ineza Sugira Marylene|m.sugiraine@alustudent.com|2026-08-14T03:03:26+04:00|feat: add order lookup form - collect the reference needed for self-service status (NS-05)
+f119124a1e327dfef68370417338190b1ec20df5|annemutahi|ms.nyamburamutahi@gmail.com|2026-08-13T22:56:15+03:00|feat: added RETURN_RULES.md file - explainsthe logic behind the decisions made (NS-08)
+3eac36c83381547522c6e21e79356a1ab9eed556|annemutahi|ms.nyamburamutahi@gmail.com|2026-08-13T22:41:00+03:00|feat: add return & refund decision logic - collect information needed to determine whether item is eligible (NS-07)
+ed210819bc50258fc294ee6c8ee9a94710345de1|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-13T22:18:21+03:00|feat: added home page - fundamental structural foundation of the dashboard
+5852d074b41329e16cddebaa068bf72a4e1fe4b5|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-13T21:58:23+03:00|doc: Updating member's details on README file
+c4b3bcea32c119de315ef9c2bd55148cb5c8af98|annemutahi|ms.nyamburamutahi@gmail.com|2026-08-13T21:07:29+03:00|added returns.html and returns.js
+d393b6e6c254b05cd441debab80ccf5713cace74|annemutahi|ms.nyamburamutahi@gmail.com|2026-08-13T20:48:38+03:00|Mistakenely pushed files to main
+7c94b6626a52e138b6ecca707863edbc2d2b7f84|annemutahi|ms.nyamburamutahi@gmail.com|2026-08-13T20:44:12+03:00|Added returns.html and returns.js files
+76ca93aad99e78de1fb6e5da358d375cafb17493|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-13T17:57:44+03:00|feat: add support journey home page - let customers choose self-service help (task-3)
+a591a78062ed5fd16769babd7a156a399368aefc|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-13T17:45:39+03:00|docs: add go-live readiness note- documents MVP scope and handover needs
+19c3de2baefc84dffb02879cb5bd1933901c000f|hambulleson3718-blip|hambulleson.3718@gmail.com|2026-08-13T11:04:14+03:00|Create GO-LIVE-READINESS.MD
+108ee730f799e23c6643c1ce2b8d9b1528db0797|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-12T14:36:30+03:00|chore: create shared project baseline - give the pod one auditable starting point (NS-01)
+5dbaafa9bc201bc435c03dd41234356cf521c88a|Musyoki Musyoka|musyokaanthony550@gmail.com|2026-08-12T14:15:18+03:00|Initial commit
