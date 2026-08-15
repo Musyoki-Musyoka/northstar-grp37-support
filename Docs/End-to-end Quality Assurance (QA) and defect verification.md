@@ -5,11 +5,12 @@
 
 - **Project:** Northstar Support MVP
 - **Testing Activity:** End-to-End Quality Assurance (QA) and Defect Verification
-- **Date:** 14 August 2026
+- **Date:** 15 August 2026
 - **Time of Test:** 19:03 hrs
 - **Browser:** Google Chrome
 - **Testing Environment:** Vercel production deployment
 - **Production URL:** https://northstar-grp37-support.vercel.app/
+- **Tested Code Commit:** [`d18ad72`](https://github.com/Musyoki-Musyoka/northstar-grp37-support/commit/d18ad72)
 - **Application:** Northstar Support MVP
 
 ### Purpose of Testing
@@ -46,16 +47,15 @@ Areas checked include:
 | Overall Stability | Use the MVP continuously | No crashes or major errors | No errors observed | PASS |
 
 ### Defect Log
-
-During the testing session, no functional or visual defects were identified.
+One production defect was identified and corrected during final verification.
 
 | Defect ID | Description | Severity | Status |
 |---|---|---|---|
-| N/A | No defects identified during testing | N/A | No defects |
+| D01 | Returns form attempted to POST to static Vercel, producing HTTP 405 | P0 | Fixed in PR #35 and retested successfully |
 
 ### Defect Verification
 
-Since no defects were identified during the test session, there were no outstanding defects requiring correction and subsequent retesting.
+Defect D01 was corrected by removing the static POST behaviour and preventing normal browser form submission. The corrected production form was retested by button and Enter-key submission, and no customer-facing HTTP 405 occurred.
 
 The MVP therefore passed the QA verification performed at **20:14 hrs on 15 August 2026** using **Google Chrome**.
 
@@ -65,4 +65,4 @@ The MVP therefore passed the QA verification performed at **20:14 hrs on 15 Augu
 
 The Northstar Support MVP performed as expected during the QA test. The application's core functionality, navigation, interface, interactive elements, and general usability were verified successfully.
 
-No defects were observed during the testing session, and no corrective action was required.
+One defect was identified, corrected and successfully retested. No open P0 defect remained in the two demonstrated customer journeys at the end of this QA pass.
