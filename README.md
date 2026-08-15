@@ -85,9 +85,38 @@ Example:
 
 `feat: add order lookup form - collect the reference needed for status help (NS-05)`
 
-## Current Status
+## Final Status
 
-Project setup is in progress.
+**Decision:** Ready for a controlled demonstration using fictional data only. Not ready for production use or real customer data.
 
-The Team Charter, Project Board, prototype, QA log, audit exports, and go-live readiness note will be added during the sprint.
+- **Live prototype:** https://northstar-grp37-support.vercel.app/
+- **Public Project Board:** https://github.com/users/Musyoki-Musyoka/projects/3
+- **Signed Team Charter:** (Doc/TEAM-CHARTER.md)(https://github.com/Musyoki-Musyoka/northstar-grp37-support/blob/main/Doc/TEAM-CHARTER.md)
+- **QA report:** [Open QA report](PASTE_COPIED_QA_URL_HERE)
+- **Go-live readiness note:** [Open go-live note](Doc/GO-LIVE-READINESS.MD)
+- **Contribution checkpoint:** [Open checkpoint](checkpoint-map.md)
+
+## Demonstration Inputs
+
+### Order Status
+
+- `NS1001` — Shipped
+- `NS1002` — Processing
+- `NS1003` — Delivered
+- Any other value — Not-found guidance
+
+### Returns
+
+- `ORD-1001` with Return
+- `ORD-1002` with Return
+- `ORD-1003` with Return
+
+### Refunds
+
+- `ORD-2001` with Refund
+- `ORD-2002` with Refund
+
+## Production Limitations
+
+This MVP uses fictional hard-coded data. It does not connect to Northstar’s live order, payment, carrier or return systems. It does not authenticate real customers, create real returns, issue real refunds or provide production monitoring, security, privacy, analytics or rollback controls.
 
