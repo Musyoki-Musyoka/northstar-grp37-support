@@ -7,8 +7,8 @@ Prepared by	AMOS LERUMBEN HAMBULLE
 1. Paired Role-Swap Evidence
 Record only real paired activities. A role swap can involve one member reviewing, testing, or assisting with work normally owned by another member.
 Time	Member A	Normal Role	Paired Activity	Member B	Evidence
-9:30 – 10:15 a.m	Anthony	Builder	Home page work	Marylene	[Issue/PR link]
-10:15 – 11:00 a.m	Anthony	Reviewer	Order page work	Marylene	[Issue/PR link]
+9:30 – 10:15 a.m	Anthony	Builder	Home page work	Marylene	(https://github.com/Musyoki-Musyoka/northstar-grp37-support/pull/21)
+10:15 – 11:00 a.m	Anthony	Reviewer	Order page work	Marylene	(https://github.com/Musyoki-Musyoka/northstar-grp37-support/pull/22)
 2. Five Daily Status Updates
 Day 1: Set up repository and acess                        -                     Completed
             Populate the project board                         -                      Completed
