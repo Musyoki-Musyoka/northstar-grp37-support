@@ -42,4 +42,7 @@ Date: 12th August 2026 | Time: 17:49 EAT
 **Amos Lerumben Hambulle**  
 Date: 12th August 2026 | Time: 17:49 EAT
 
-The Google Docs link to see the signatures is as follows: https://docs.google.com/document/d/1-T6h8g1-3SwhMjxTK0t9_HVgT-bllJL76nbU1JmhV3Q/edit?usp=sharing
+The screenshots to show the signatures of each member are as follows:
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
