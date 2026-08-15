@@ -17,7 +17,7 @@
             <li>Refunds will be processed within 5-7 business days.</li>
         </ul>
         <p>Start a return or refund request:</p>
-        <form class="submit-form" method="post">
+        <form id="returnForm" class="submit-form">
             <label for="orderNumber">Order Number:</label>
             <input type="text" id="orderNumber" name="orderNumber" placeholder="e.g., ORD-0001" required><br><br>
             <p>
@@ -65,6 +65,7 @@
                     <option value="completed">Refund completed</option>
                 </select>
             </p>
+            <button type="submit">Submit request</button>
         </form>
         <div class="dummydata"> 
         <p>Return: ORD-1001, ORD-1002, ORD-1003</p>

@@ -13,7 +13,12 @@ const deliveryStatus = document.getElementById('deliveryStatus');
 const returnWindow = document.getElementById('returnWindow');
 const itemCondition = document.getElementById('itemCondition');
 const refundStage = document.getElementById('refundStage');
+const returnForm = document.getElementById('returnForm');
 let lastAppliedOrderNumber = '';
+
+returnForm.addEventListener('submit', (event) => {
+    event.preventDefault();
+});
 
 const orders = {
     'ORD-1001': {
