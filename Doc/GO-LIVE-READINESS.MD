@@ -41,11 +41,13 @@ The current MVP demonstrates **two self-service prototype flows** using fictiona
 
 | Verification Item | Recorded Value / Evidence Status |
 | :--- | :--- |
-| **Verification Date/Time** | 15 Aug 2026; 7:30 PM EAT |
+| **Verification Date/Time** | 15 Aug 2026; 7:03 PM EAT |
 | **Tester** | Vincent Kipkosgei |
 | **Browser / Device** | Google Chrome 139 on Windows 11 laptop |
-| **Tested Commit** | [`e3748b4`](https://github.com/Musyoki-Musyoka/northstar-grp37-support/commit/e3748b4f273fcbd62f00284a722001eb1ae648a3) |
+| **Tested Code Commit** | [`d18ad72`](https://github.com/Musyoki-Musyoka/northstar-grp37-support/commit/d18ad72) |
 | **QA Log** | [Production QA and Defect-Verification Report](https://github.com/Musyoki-Musyoka/northstar-grp37-support/blob/main/Docs/End-to-end%20Quality%20Assurance%20(QA)%20and%20defect%20verification.md) |
+
+One production defect was identified during final testing: the Returns form attempted to POST to the static Vercel deployment and produced HTTP 405. The defect was fixed in  PR #35 (https://github.com/Musyoki-Musyoka/northstar-grp37-support/pull/35) and successfully retested. No open P0 defect remained in the two demonstrated journeys at the end of the QA pass.
 
 Final end-to-end QA was completed against the Vercel production deployment. The full results are recorded in the linked QA report.
 
