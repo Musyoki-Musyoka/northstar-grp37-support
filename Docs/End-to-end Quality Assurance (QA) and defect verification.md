@@ -8,7 +8,8 @@
 - **Date:** 14 August 2026
 - **Time of Test:** 19:03 hrs
 - **Browser:** Google Chrome
-- **Testing Environment:** Local Development Environment
+- **Testing Environment:** Vercel production deployment
+- **Production URL:** https://northstar-grp37-support.vercel.app/
 - **Application:** Northstar Support MVP
 
 ### Purpose of Testing
@@ -38,6 +39,7 @@ Areas checked include:
 | Buttons | Click available buttons | Buttons perform expected actions | Buttons worked correctly | PASS |
 | Order/Support Lookup | Test the lookup functionality | Correct information is displayed | Function worked correctly | PASS |
 | Returns | Access the returns functionality | Returns information/functionality is available | Worked correctly | PASS |
+| Returns Form Submission | Submit ORD-1001 + Return by button and Enter | Result appears without HTTP POST/405 | Result appeared and no 405 occurred | PASS |
 | Error Handling | Test invalid/incorrect input where applicable | Appropriate response is provided | Worked as expected | PASS |
 | Responsiveness | Check layout at different screen sizes | Layout remains usable | Layout remained usable | PASS |
 | Usability | Navigate through the MVP as a user | System is easy to understand and use | System was usable | PASS |
@@ -55,7 +57,7 @@ During the testing session, no functional or visual defects were identified.
 
 Since no defects were identified during the test session, there were no outstanding defects requiring correction and subsequent retesting.
 
-The MVP therefore passed the QA verification performed at **19:03 hrs on 14 August 2026** using **Google Chrome**.
+The MVP therefore passed the QA verification performed at **20:14 hrs on 15 August 2026** using **Google Chrome**.
 
 ### Final Status
 
