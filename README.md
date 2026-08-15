@@ -91,7 +91,7 @@ Example:
 
 - **Live prototype:** https://northstar-grp37-support.vercel.app/
 - **Public Project Board:** https://github.com/users/Musyoki-Musyoka/projects/3
-- **Signed Team Charter:** (Doc/TEAM-CHARTER.md)(https://github.com/Musyoki-Musyoka/northstar-grp37-support/blob/main/Doc/TEAM-CHARTER.md)
+- - **Signed Team Charter:** [Open Team Charter](Doc/TEAM-CHARTER.md)
 - **QA report:** [Open QA report](https://github.com/Musyoki-Musyoka/northstar-grp37-support/blob/main/Docs/End-to-end%20Quality%20Assurance%20(QA)%20and%20defect%20verification.md)
 - **Go-live readiness note:** [Open go-live note](Doc/GO-LIVE-READINESS.MD)
 - **Contribution checkpoint:** [Open checkpoint](checkpoint-map.md)

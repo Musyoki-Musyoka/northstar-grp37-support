@@ -31,5 +31,6 @@ The team responded by clarifying the branch and commit convention, using task-li
 
 ## Raw Audit Evidence
 
-- [Git history export](docs/audit/git-history.txt)
-- [Project Board export](docs/audit/board-final.tsv)
+- [Git history export](Docs/audit/git-history.txt)
+- [Project Board export](Docs/audit/board-final.tsv)
+ 
